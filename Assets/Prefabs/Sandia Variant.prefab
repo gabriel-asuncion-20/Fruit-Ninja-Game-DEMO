@@ -1,0 +1,118 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!50 &5218504282165651781
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3781395251706514915}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 1
+  m_Constraints: 0
+--- !u!58 &1114273172036262071
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3781395251706514915}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -9.313226e-10, y: -0.000000002328306}
+  serializedVersion: 2
+  m_Radius: 0.004
+--- !u!114 &5713535618480212594
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3781395251706514915}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5ac65be481f8f2040bfc3c6fd5700398, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  prefabFrutaCortada: {fileID: 1120479342096050674, guid: f8b4864eac5b973499b525630b9ad6fb, type: 3}
+--- !u!1001 &4087965693807292594
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 20c48d4dfa5f73d4dbdd4e18d9ee47b7, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 20c48d4dfa5f73d4dbdd4e18d9ee47b7, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -5.1290336
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 20c48d4dfa5f73d4dbdd4e18d9ee47b7, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 5.502999
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 20c48d4dfa5f73d4dbdd4e18d9ee47b7, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 20c48d4dfa5f73d4dbdd4e18d9ee47b7, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071067
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 20c48d4dfa5f73d4dbdd4e18d9ee47b7, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 20c48d4dfa5f73d4dbdd4e18d9ee47b7, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 20c48d4dfa5f73d4dbdd4e18d9ee47b7, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 20c48d4dfa5f73d4dbdd4e18d9ee47b7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 20c48d4dfa5f73d4dbdd4e18d9ee47b7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 20c48d4dfa5f73d4dbdd4e18d9ee47b7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 20c48d4dfa5f73d4dbdd4e18d9ee47b7, type: 3}
+      propertyPath: m_Name
+      value: Sandia
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 20c48d4dfa5f73d4dbdd4e18d9ee47b7, type: 3}
+      propertyPath: m_TagString
+      value: Interactivo
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 20c48d4dfa5f73d4dbdd4e18d9ee47b7, type: 3}
+--- !u!1 &3781395251706514915 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 20c48d4dfa5f73d4dbdd4e18d9ee47b7, type: 3}
+  m_PrefabInstance: {fileID: 4087965693807292594}
+  m_PrefabAsset: {fileID: 0}
